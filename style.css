@@ -1062,6 +1062,25 @@ body.stretched #header.full-header .container {
 	max-width: 100%;
 }
 
+@media (max-width: 1350px) {
+  #logo img {
+    max-height: 75px;
+  }
+}
+
+@media (max-width: 1250px) {
+  #logo img {
+    max-height: 45px;
+  }
+}
+
+@media (max-width: 995px) {
+  #logo img {
+    max-height: 170px;
+    max-width: 100%;
+  }
+}
+
 #logo a.standard-logo { display: block; }
 
 #logo a.retina-logo { display: none; }
@@ -1173,6 +1192,17 @@ body.stretched #header.full-header .container {
 	transition: margin .4s ease, padding .4s ease;
 }
 
+@media (max-width: 1200px) {
+  #primary-menu ul li > a { 
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #primary-menu ul li > a { 
+    font-size: 8px;
+  }
+}
 #primary-menu ul li > a span { display: none; }
 
 #primary-menu ul li > a i {
@@ -11358,6 +11388,10 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block h4 + span { font-size: 20px; }
 
 .heading-block ~ p:not(.lead) { font-size: 15px; }
+
+@media(max-width: 1150px) {
+  .heading-block ~ p:not(.lead) { font-size: 10px; }
+}
 
 .heading-block:after {
 	content: '';
