@@ -9863,7 +9863,7 @@ body:not(.device-touch) .clients-grid li a {
 .team-image > a,
 .team-image img {
 	display: block;
-  max-width: 500px;
+   max-height: 450px;
 }
 
 .team-desc { text-align: center; }
@@ -13973,6 +13973,10 @@ body:not(.no-transition) #wrapper,
 .rating-container .filled-stars {
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
+}
+
+#articles-img img {
+  min-height: 400px;
 }
 
 
