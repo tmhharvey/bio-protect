@@ -9863,7 +9863,14 @@ body:not(.device-touch) .clients-grid li a {
 .team-image > a,
 .team-image img {
 	display: block;
-   max-height: 450px;
+  max-height: 150px;
+  margin: 0 auto;
+}
+
+
+.team-image-large img {
+	display: block;
+  width: auto;
 }
 
 .team-desc { text-align: center; }
@@ -11387,7 +11394,11 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block h3 + span,
 .heading-block h4 + span { font-size: 20px; }
 
-.heading-block ~ p:not(.lead) { font-size: 15px; }
+.heading-block ~ p:not(.lead) { font-size: 18px; }
+
+.our-tech {
+  font-size: 18px;
+}
 
 @media(max-width: 1150px) {
   .heading-block ~ p:not(.lead) { font-size: 10px; }
