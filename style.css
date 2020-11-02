@@ -11394,14 +11394,19 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block h3 + span,
 .heading-block h4 + span { font-size: 20px; }
 
-.heading-block ~ p:not(.lead) { font-size: 18px; }
+.heading-block ~ p:not(.lead) { font-size: 16px; }
 
 .our-tech {
   font-size: 18px;
 }
 
 @media(max-width: 1150px) {
-  .heading-block ~ p:not(.lead) { font-size: 10px; }
+  .heading-block ~ p:not(.lead) { 
+    font-size: 10px;
+   }
+  .our-tech { 
+    font-size: 10px; 
+  }
 }
 
 .heading-block:after {
@@ -13988,6 +13993,12 @@ body:not(.no-transition) #wrapper,
 
 #articles-img img {
   min-height: 400px;
+}
+
+.certification-section {
+  background-color: #fff !important;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 
