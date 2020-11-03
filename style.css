@@ -1192,6 +1192,14 @@ body.stretched #header.full-header .container {
 	transition: margin .4s ease, padding .4s ease;
 }
 
+@media (max-width: 1400px) {
+  #primary-menu ul li > a { 
+    font-size: 13px;
+    padding: 39px 10px;
+  }
+}
+
+
 @media (max-width: 1200px) {
   #primary-menu ul li > a { 
     font-size: 10px;
@@ -11400,9 +11408,15 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
   font-size: 18px;
 }
 
+.innovative-tech p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+  color: #777 !important;
+}
+
 @media(max-width: 1150px) {
   .heading-block ~ p:not(.lead) { 
-    font-size: 10px;
+    font-size: 12px;
    }
   .our-tech { 
     font-size: 10px; 
